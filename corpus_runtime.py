@@ -1,7 +1,11 @@
+#
+# Corpus longetivity estimator - Find out how long your hard earned savings
+# will last with inflation and the RoI you get on the remaining corpus.
+#
 import numpy as np
 
 # user inputs
-corpus = float(input("Enter initial corpus amount (e.g., 20000000 for 2 Cr): "))
+corpus = float(input("Enter initial corpus amount (e.g., 20000000 for ₹2Cr): "))
 yearly_exp = float(input("Enter yearly withdrawl amount (e.g., 1200000 for ₹1L/month): "))
 roi = float(input("Enter avg annual RoI (in %, e.g., 7.5: ")) / 100
 inflation_rate = float(input("Enter avg inflation rate (in %, e.g., 5): ")) / 100
