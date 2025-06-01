@@ -8,6 +8,7 @@ def calculate_fvm(present_value, annual_rate, years):
     :return: Future value
     """
     #fvm = present_value * (1 - annual_rate) ** years
+    # Future value is adjusted for inflation; value decreases as inflation erodes purchasing power over time
     fvm = present_value / ((1 + annual_rate) ** years)
     return fvm
 
